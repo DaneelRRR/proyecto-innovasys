@@ -57,6 +57,3 @@ Carpeta compartida: Desde un cliente Linux (por ejemplo, Linux Lite) accediendo 
    │   └── samba/           # Configuración de Samba
    │       ├── tasks/
    │       └── handlers/
-
----
-
