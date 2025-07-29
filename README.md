@@ -22,17 +22,16 @@ Todo se gestiona desde una máquina de control con Ansible, aplicando buenas pr�
 ## 📂 Estructura del Proyecto
 
 innovaSys/
-│
-├── hosts # Inventario con IP o nombre del servidor
-├── site # Playbook principal
-├── roles/ # Roles organizados por servicio
-│ ├── apache/ # Configuración de Apache
-│ │ ├── tasks/
-│ │ ├── templates/
-│ │ └── handlers/
-│ └── samba/ # Configuración de Samba
-│ ├── tasks/
-│ └── handlers/
+├── hosts                 # Inventario con IP o nombre del servidor
+├── site.yml             # Playbook principal
+├── roles/               # Roles organizados por servicio
+│   ├── apache/          # Configuración de Apache
+│   │   ├── tasks/
+│   │   ├── templates/
+│   │   └── handlers/
+│   └── samba/           # Configuración de Samba
+│       ├── tasks/
+│       └── handlers/
 
 ---
 
