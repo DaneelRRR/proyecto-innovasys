@@ -19,23 +19,6 @@ Todo se gestiona desde una máquina de control con Ansible, aplicando buenas pr�
 
 ---
 
-## 📂 Estructura del Proyecto
-
-   ```text
-   innovaSys/
-   ├── hosts                 # Inventario con IP o nombre del servidor
-   ├── site.yml             # Playbook principal
-   ├── roles/               # Roles organizados por servicio
-   │   ├── apache/          # Configuración de Apache
-   │   │   ├── tasks/
-   │   │   ├── templates/
-   │   │   └── handlers/
-   │   └── samba/           # Configuración de Samba
-   │       ├── tasks/
-   │       └── handlers/
-
----
-
 ## 🚀 Ejecución del Playbook
 
 1. Clona el repositorio:
@@ -59,3 +42,21 @@ samba: Configura un servidor de archivos compartidos con autenticación.
 Acceso web: Desde un navegador web usando la IP del servidor.
 
 Carpeta compartida: Desde un cliente Linux (por ejemplo, Linux Lite) accediendo a través de la red.
+
+## 📂 Estructura del Proyecto
+
+   ```text
+   innovaSys/
+   ├── hosts                 # Inventario con IP o nombre del servidor
+   ├── site.yml             # Playbook principal
+   ├── roles/               # Roles organizados por servicio
+   │   ├── apache/          # Configuración de Apache
+   │   │   ├── tasks/
+   │   │   ├── templates/
+   │   │   └── handlers/
+   │   └── samba/           # Configuración de Samba
+   │       ├── tasks/
+   │       └── handlers/
+
+---
+
